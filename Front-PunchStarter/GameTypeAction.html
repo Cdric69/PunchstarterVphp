@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/gameType.css" />
+  <title>GameTypeAction</title>
+</head>
+
+<body>
+  <nav id="navaccueil">
+    <div id="navcontainer">
+      <a href="./Accueil.html">
+        <h2 id="title">PunchStarter</h1>
+      </a>
+      <a href="./Inscription.html">
+        <h2 id="inscription">Inscription</h2>
+      </a>
+      <a href="./Connexion.html">
+        <h2 id="connexion">Connexion</h2>
+      </a>
+      <div id="searcharea">
+        <h2 id="searchlink">Rechercher</h2>
+        <input type="" value="rechercher un projet" id="searchinput" />
+      </div>
+    </div>
+
+    <div id="divtype">
+      <ul id="type">
+        <li>Action</li>
+        <li>RPG</li>
+        <li>Simulation</li>
+        <li>Strategie</li>
+        <li>Sport</li>
+        <li>Course</li>
+        <li>Plates-formes</li>
+        <li>Autres</li>
+      </ul>
+    </div>
+
+
+  </nav>
+  <!--Ma liste ALL-->
+  <div id="gameList">
+    <table id="liste">
+
+    </table>
+
+  </div>
+
+  <!--Pagination-->
+  <button type="button" id="firstpage">
+    Première page</button>
+  <button type="button" id="previouspage">
+    Page précédente</button>
+  <span id="pageinfo"></span>
+  <button type="button" id="nextpage">Page suivante</button>
+  <button type="button" id="lastpage">Dernière page</button>
+
+
+
+
+  <!--Form pour avoir TYPE-->
+  <!-- <form action="../Back_php/controls/ctrlSelectType.php" method="GET" id="form"> -->
+  <select name="select" id="select">
+    <option value="Sport">Sport</option>
+    <option value="Plates-formes">Plates-formes</option>
+    <option value="RPG">RPG</option>
+    <option value="Strategie">Stratégie</option>
+    <option value="Course">Course</option>
+    <option value="Autres">Autres</option>
+    <option value="Action">Action</option>
+    <option value="Simuation">Simuation</option>
+  </select>
+  <input type="button" value="Valider" name="btValider" id="validate" />
+  <!-- </form> -->
+  <script src="./js/gameType.js"></script>
+  <!-- <script src="./js/gameTypeTest.js"></script> -->
+</body>
+
+</html>

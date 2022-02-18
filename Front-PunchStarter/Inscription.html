@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./css/Inscription.css">
+  </head>
+  <body>
+    
+      
+    <nav id="navaccueil">
+        
+          <a href="./Accueil.html"><h2 id="title">PunchStarter</h1></a>
+          <a href="./Inscription.html"><h2 id="inscription">Inscription</h2></a>
+          <a href="./Connexion.html"><h2 id="connexion">Connexion</h2></a>
+          <div id="searcharea">
+            <h2 id="searchlink">Rechercher</h2>
+            <input type="" value="rechercher un projet" id="searchinput" />
+          </div>
+        
+    </nav>
+
+    <section id="center">
+    <form action="" method="POST" id="form">
+        <!--name-->
+        
+          <!--Nom-->
+          <label for="name" class="etiquette">Nom </label>
+          <div>
+            <input type="text" size="50" name="name" id="name" value="" />
+                       
+          </div>
+          <!--Prénom-->
+
+          <label for="prenom" class="etiquette">Pr&eacute;nom </label>
+          <div>
+            <input type="text" size="50" name="prenom" id="prenom" value="" />
+          </div>
+          <!--Date de naissance-->
+          <label for="dateNaissance" class="etiquette"
+              >Date de naissance</label>
+          <div>
+            <input
+              type="text"
+              size="50"
+              name="dateNaissance"
+              id="dateNaissance"
+              value=""
+            />
+          </div>
+           <!--Email + Email2-->
+           <label for="email" class="etiquette">E-mail </label>
+          <div>  
+            <input type="text" size="50" name="email" id="email" value="" />
+            
+          </div>
+          <label for="email2" class="etiquette">Retapez l'e-mail </label>
+          <div>
+            <input type="text" size="50" name="email" id="email2" value="" />
+            
+          </div>
+          <!--Pseudo + mdp + mdp2-->
+          <label for="pseudo" class="etiquette">Pseudo </label>
+          <div>
+            <input type="text" size="50" name="pseudo" id="pseudo" value="" />
+            
+          </div>
+          <label for="mdp" class="etiquette">Mot de passe </label>
+          <div>
+            <input type="password" size="50" name="mdp" id="mdp" value="" />
+            
+          </div>
+          <label for="mdp2" class="etiquette">Retapez le mot de passe </label>
+          <div>
+            <input type="password" size="50" name="mdp" id="mdp2" value="" />
+            
+          </div>
+          <!--Adresse+ville+cp+pays-->
+          <label for="adress" class="etiquette">Adresse</label>
+          <div>            
+            <input type="text" size="50" name="adress" id="adress" />
+            
+          </div>
+          <label for="cp" class="etiquette">Code postal</label>
+          <div>
+            <input type="text" size="50" name="cp" id="cp" />
+        </div>
+        <label for="city" class="etiquette">Ville</label>
+        <div>
+            <input type="text" size="50" name="city" id="city" />
+        </div>
+        <label for="country" class="etiquette">Pays</label>
+        <div>
+            <input type="text" size="50" name="country" id="country" />
+        </div>
+
+        <!--Button Validate-->
+        <button type="submit
+        ">Valider</button>
+    </form>
+    <div id="right">
+        </div>
+    </section>
+  
+
+<script src="./js/inscription.js"></script>
+  </body>
+</html>

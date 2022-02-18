@@ -1,0 +1,12 @@
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+}
